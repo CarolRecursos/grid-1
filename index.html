@@ -80,18 +80,28 @@ background-color: darkorange;
             background-color: powderblue;
         }
         #m10{
-            grid-column-start: ;
-            grid-column-end: ;
-            grid-row-start: ;
-            grid-row-end: ;
+            grid-column-start: 1;
+            grid-column-end: 7;
+            grid-row-start: 9;
+            grid-row-end: 16;
             background-color: salmon;
         }
         #m11{
-            grid-column-start: ;
-            grid-column-end: ;
-            grid-row-start: ;
-            grid-row-end: ;
+            grid-column-start: 7;
+            grid-column-end: 10;
+            grid-row-start: 3;
+            grid-row-end: 5;
             background-color: skyblue;
+        }
+        @media (max-width: 1024px) {
+            body, #container {
+                background-color: chartreuse;
+            }
+        }
+        @media (max-width: 600px) {
+            body, #container {
+                background-color: rgba(255, 0, 221, 0.322);
+            }
         }
     </style>
 </head>
